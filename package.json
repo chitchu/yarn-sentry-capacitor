@@ -6,6 +6,9 @@
   "author": "Vicente Jr Yuchitcho",
   "license": "MIT",
   "packageManager": "yarn@3.2.3",
+  "scripts": {
+    "update:ios": "cap update ios"
+  },
   "devDependencies": {
     "@capacitor/cli": "^4.3.0",
     "@capacitor/ios": "^4.3.0",
