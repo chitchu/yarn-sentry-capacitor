@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.app",
+  "appName": "yarn-sentry-capacitor",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
