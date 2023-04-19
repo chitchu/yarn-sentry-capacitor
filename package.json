@@ -1,20 +1,8 @@
 {
-  "name": "yarn-sentry-capacitor",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:chitchu/yarn-sentry-capacitor.git",
-  "author": "Vicente Jr Yuchitcho",
-  "license": "MIT",
-  "packageManager": "yarn@3.2.3",
-  "scripts": {
-    "update:ios": "cap update ios"
-  },
-  "devDependencies": {
-    "@capacitor/cli": "^4.3.0",
-    "@capacitor/ios": "^4.3.0",
-    "@sentry/capacitor": "^0.10.0"
-  },
-  "dependencies": {
-    "@capacitor/core": "^4.3.0"
+  "name": "yarn-sentry-capacitor-monorepo",
+  "workspaces": {
+    "packages": [
+      "apps/*"
+    ]
   }
 }
